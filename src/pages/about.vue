@@ -20,7 +20,7 @@
           <caption></caption>
           <tbody>
             <tr>
-              <td>Beatmania IIDX (SP / DP)</td>
+              <td>beatmania IIDX (SP / DP)</td>
               <td>SOUND VOLTEX</td>
               <td>pop'n music</td>
             </tr>

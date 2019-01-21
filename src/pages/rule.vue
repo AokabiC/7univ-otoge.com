@@ -22,7 +22,7 @@
         </ul>
         <ul uk-accordion>
           <li>
-            <a class="uk-accordion-title" href="#">Beatmania IIDX</a>
+            <a class="uk-accordion-title" href="#">beatmania IIDX</a>
             <div class="uk-accordion-content">
               <ul class="uk-list uk-list-bullet">
                 <li>EXスコアで集計を行います。シングルプレーでのスコアを対象とします。</li>
@@ -38,6 +38,33 @@
               <ul class="uk-list uk-list-bullet">
                 <li>通常スコア(10,000,000点満点)で集計を行います。</li>
                 <li>MIRROR, RANDOM等のオプションの使用は自由です。​</li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a class="uk-accordion-title" href="#">REFLEC BEAT</a>
+            <div class="uk-accordion-content">
+              <ul class="uk-list uk-list-bullet">
+                <li>通常スコア(10,000,000点満点)で集計を行います。</li>
+                <li>MIRROR, RANDOM等のオプションの使用は自由です。​</li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a class="uk-accordion-title" href="#"></a>
+            <div class="uk-accordion-content">
+              <ul class="uk-list uk-list-bullet">
+                <li></li>
+                <li></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a class="uk-accordion-title" href="#"></a>
+            <div class="uk-accordion-content">
+              <ul class="uk-list uk-list-bullet">
+                <li></li>
+                <li></li>
               </ul>
             </div>
           </li>
