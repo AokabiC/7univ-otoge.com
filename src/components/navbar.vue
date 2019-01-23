@@ -25,23 +25,33 @@
                 Rule
               </a>
             </router-link>
-            <li>
+            <router-link to="/task" tag="li">
               <a href="#">
                 <span uk-icon="list" class="uk-margin-small-right"></span>
                 Task
               </a>
-            </li>
+            </router-link>
             <li>
               <a href="#">
                 <span uk-icon="users" class="uk-margin-small-right"></span>
                 Ranking
               </a>
+              <div uk-drop="pos: top-justify">
+                <div
+                  class="uk-card uk-card-small uk-card-body uk-card-default tm-card"
+                >2/9[Sat.] 公開予定</div>
+              </div>
             </li>
             <li>
               <a href="#">
                 <span uk-icon="upload" class="uk-margin-small-right"></span>
                 Submit
               </a>
+              <div uk-drop="pos: top-justify">
+                <div
+                  class="uk-card uk-card-small uk-card-body uk-card-default tm-card"
+                >2/9[Sat.] 公開予定</div>
+              </div>
             </li>
           </ul>
         </div>
@@ -54,8 +64,13 @@
 .tm-navbar-container:not(.uk-navbar-transparent) {
   background: linear-gradient(
     to left,
-    rgba(20, 25, 51, 0.7),
-    rgba(38, 35, 76, 0.7)
+    rgb(20, 25, 51),
+    rgb(38, 35, 76)
   );
+}
+
+.tm-card {
+  border-radius: 20px;
+  opacity: 0.8;
 }
 </style>

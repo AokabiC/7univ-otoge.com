@@ -1,6 +1,5 @@
 <template>
   <div class="uk-section-primary uk-background-fixed tm-background">
-    <navbar></navbar>
     <div
       uk-height-viewport="offset-top: true; offset-bottom: true"
       class="uk-grid uk-flex uk-flex-middle"

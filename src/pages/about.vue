@@ -1,12 +1,11 @@
 <template>
   <div class="uk-section-default">
-    <navbar></navbar>
     <div
       uk-height-viewport="offset-top: true; offset-bottom: true"
       class="uk-flex uk-flex-left"
       style="min-height: 100%"
     >
-      <div class="uk-container uk-padding uk-container-small uk-text-center uk-text-left@l">
+      <div class="uk-container uk-padding uk-container-small uk-text-left">
         <h1>概要</h1>
         <p>「音ゲー七帝戦」は、<span class="uk-text-primary">旧帝大の学生・OBを対象とした音ゲー大会</span>です。</p>
         <h3>参加資格</h3>

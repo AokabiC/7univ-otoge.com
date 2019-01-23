@@ -25,6 +25,7 @@ module.exports = {
     'generator-star-spacing': 'off',
     // allow debugger during development
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
-    'no-irregular-whitespace': 'off'
+    'no-irregular-whitespace': 'off',
+    'no-trailing-spaces': 'off'
   }
 }
