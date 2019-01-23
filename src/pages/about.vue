@@ -10,7 +10,7 @@
         <p>「音ゲー七帝戦」は、<span class="uk-text-primary">旧帝大の学生・OBを対象とした音ゲー大会</span>です。</p>
         <h3>参加資格</h3>
         <ul class="uk-list uk-list-bullet">
-          <li>各旧帝大音ゲーサークルに所属している</li>
+          <li>各旧帝大音ゲーサークルに所属している学生</li>
           <li>旧帝大在籍の学生</li>
           <li>旧帝大を卒業したOBのうちLINEやdiscord等何かしらの手段で連絡の取れる方</li>
         </ul>

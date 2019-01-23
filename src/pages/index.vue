@@ -17,7 +17,8 @@
           <div class="uk-grid uk-child-width-auto uk-grid-medium uk-flex-inline uk-flex-center">
             <div class="uk-first-column">
               <a
-                href="https://twitter.com/7univ_otoge"
+                href="https://docs.google.com/document/d/1Tm4HN_fs5SJYbXCDgW1DgRWU6bzSd1XVF0a-RNbEIGM/edit"
+                target="_brank"
                 class="uk-button uk-button-default tm-button-primary"
               >entry</a>
             </div>
