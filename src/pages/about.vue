@@ -21,27 +21,34 @@
             <tr>
               <td>beatmania IIDX (SP / DP)</td>
               <td>SOUND VOLTEX</td>
-              <td>pop'n music</td>
             </tr>
             <tr>
+              <td>pop'n music</td>
               <td>Dance Dance Revolution (SP / DP)</td>
+            </tr>
+            <tr>
               <td>GuitarFreaks / DrumMania</td>
               <td>jubeat</td>
             </tr>
             <tr>
               <td>REFLEC BEAT</td>
               <td>ノスタルジア</td>
-              <td>CHUNITHM</td>
             </tr>
             <tr>
+              <td>CHUNITHM</td>
               <td>maimai</td>
+            </tr>
+            <tr>
               <td>初音ミク Project DIVA</td>
               <td>GROOVE COASTER</td>
             </tr>
             <tr>
               <td>太鼓の達人</td>
               <td>DANCERUSH</td>
+            </tr>
+            <tr>
               <td>オンゲキ</td>
+              <td/>
             </tr>
           </tbody>
         </table>

@@ -1,5 +1,5 @@
 <template>
-  <div class="uk-section-primary uk-background-fixed tm-background">
+  <div class="uk-section-primary uk-background-cover tm-background">
     <div
       uk-height-viewport="offset-top: true; offset-bottom: true"
       class="uk-grid uk-flex uk-flex-middle"
@@ -20,7 +20,7 @@
                 href="https://docs.google.com/document/d/1Tm4HN_fs5SJYbXCDgW1DgRWU6bzSd1XVF0a-RNbEIGM/edit"
                 target="_brank"
                 class="uk-button uk-button-default tm-button-primary"
-              >entry</a>
+              >IR page</a>
             </div>
             <div>
               <a

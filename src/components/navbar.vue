@@ -3,57 +3,95 @@
     <div class="uk-container uk-container-expand uk-width-1-1">
       <nav class="uk-navbar">
         <div class="uk-navbar-left">
-          <a class="uk-navbar-item uk-logo wf-en" href="#">7univ-otoge.com</a>
+          <router-link class="uk-navbar-item uk-logo wf-en" to="/">7univ-otoge.com</router-link>
         </div>
         <div class="uk-navbar-right">
-          <ul class="uk-navbar-nav">
+          <ul class="uk-navbar-nav uk-visible@m">
             <router-link to="/" tag="li">
-              <a href="#">
+              <a href>
                 <span uk-icon="home" class="uk-margin-small-right"></span>
                 Home
               </a>
             </router-link>
             <router-link to="/about" tag="li">
-              <a href="#">
+              <a href>
                 <span uk-icon="info" class="uk-margin-small-right"></span>
                 About
               </a>
             </router-link>
             <router-link to="/rule" tag="li">
-              <a href="#">
+              <a href>
                 <span uk-icon="check" class="uk-margin-small-right"></span>
                 Rule
               </a>
             </router-link>
             <router-link to="/task" tag="li">
-              <a href="#">
+              <a href>
                 <span uk-icon="list" class="uk-margin-small-right"></span>
                 Task
               </a>
             </router-link>
             <li>
-              <a href="#">
+              <a uk-tooltip="2/9 公開予定">
                 <span uk-icon="users" class="uk-margin-small-right"></span>
                 Ranking
               </a>
-              <div uk-drop="pos: top-justify">
-                <div
-                  class="uk-card uk-card-small uk-card-body uk-card-default tm-card"
-                >2/9[Sat.] 公開予定</div>
-              </div>
             </li>
             <li>
-              <a href="#">
+              <a uk-tooltip="2/9 公開予定">
                 <span uk-icon="upload" class="uk-margin-small-right"></span>
                 Submit
               </a>
-              <div uk-drop="pos: top-justify">
-                <div
-                  class="uk-card uk-card-small uk-card-body uk-card-default tm-card"
-                >2/9[Sat.] 公開予定</div>
-              </div>
             </li>
           </ul>
+          <a
+            class="uk-navbar-toggle uk-hidden@m"
+            uk-navbar-toggle-icon
+            uk-toggle="target: #navbar-m"
+          ></a>
+          <div id="navbar-m" uk-modal>
+            <div class="uk-modal-dialog uk-modal-body">
+              <button class="uk-modal-close-default" type="button" uk-close></button>
+              <ul class="uk-list uk-list-large">
+                <router-link to="/" tag="li">
+                  <a href class="uk-modal-close">
+                    <span uk-icon="home" class="uk-margin-small-right"></span>
+                    Home
+                  </a>
+                </router-link>
+                <router-link to="/about" tag="li">
+                  <a href class="uk-modal-close">
+                    <span uk-icon="info" class="uk-margin-small-right"></span>
+                    About
+                  </a>
+                </router-link>
+                <router-link to="/rule" tag="li">
+                  <a href class="uk-modal-close">
+                    <span uk-icon="check" class="uk-margin-small-right"></span>
+                    Rule
+                  </a>
+                </router-link>
+                <router-link to="/task" tag="li">
+                  <a href class="uk-modal-close">
+                    <span uk-icon="list" class="uk-margin-small-right"></span>
+                    Task
+                  </a>
+                </router-link>
+                <li>
+                  <a uk-tooltip="2/9 公開予定">
+                    <span uk-icon="users" class="uk-margin-small-right"></span>
+                    Ranking
+                  </a>
+                </li>
+                <li>
+                  <a uk-tooltip="2/9 公開予定">
+                    <span uk-icon="upload" class="uk-margin-small-right"></span>
+                    Submit
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
       </nav>
     </div>
@@ -62,11 +100,7 @@
 
 <style lang="scss" scoped>
 .tm-navbar-container:not(.uk-navbar-transparent) {
-  background: linear-gradient(
-    to left,
-    rgb(20, 25, 51),
-    rgb(38, 35, 76)
-  );
+  background: linear-gradient(to left, rgb(20, 25, 51), rgb(38, 35, 76));
 }
 
 .tm-card {
