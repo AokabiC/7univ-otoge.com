@@ -5,7 +5,7 @@
       class="uk-flex uk-flex-left"
       style="min-height: 100%"
     >
-      <div class="uk-container uk-padding uk-container-small uk-text-left">
+      <div class="uk-container uk-width-1-2@xl uk-width-2-3@m uk-padding uk-container-small uk-text-left">
         <h1>概要</h1>
         <p>「音ゲー七帝戦」は、<span class="uk-text-primary">旧帝大の学生・OBを対象とした音ゲー大会</span>です。</p>
         <h3>参加資格</h3>

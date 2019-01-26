@@ -6,7 +6,7 @@
       style="min-height: 100%"
     >
       <div
-        class="uk-container uk-width-1-2@xl uk-width-2-3@l uk-padding uk-container-small uk-text-left"
+        class="uk-container uk-width-1-2@xl uk-width-2-3@m uk-padding uk-container-small uk-text-left"
       >
         <h1>課題曲</h1>
         <ul uk-tab>
@@ -31,7 +31,7 @@
               選曲者を特定すること及び選曲者への誹謗中傷は絶対にお止めください。
               なお、今回も事後アンケートを実施しますので、選曲についてのご意見がありましたらそこへご記入ください。
             </div>
-            <div class="uk-hidden@m">
+            <div class="uk-hidden@s">
               <table class="uk-table uk-table-divider">
                 <thead>
                   <tr>
@@ -79,7 +79,7 @@
                   </tr>
                   <tr>
                     <td/>
-                    <td>イーディーエムジャンパーズ (3/5/8/12)</td>
+                    <td>イーディーエム・ジャンパーズ (3/5/8/12)</td>
                   </tr>
                   <tr>
                     <td>Dance Dance Revolution (DP)</td>
@@ -188,7 +188,7 @@
                 </tbody>
               </table>
             </div>
-            <div class="uk-visible@m">
+            <div class="uk-visible@s">
               <table class="uk-table uk-table-divider">
                 <thead>
                   <tr>
@@ -220,7 +220,7 @@
                   <tr>
                     <td>Dance Dance Revolution (SP)</td>
                     <td>Adularia (3/6/10/14)</td>
-                    <td>イーディーエムジャンパーズ (3/5/8/12)</td>
+                    <td>イーディーエム・ジャンパーズ (3/5/8/12)</td>
                   </tr>
                   <tr>
                     <td>Dance Dance Revolution (DP)</td>
@@ -295,7 +295,9 @@
             <div class="uk-padding-small">
               ※配点は左から高難易度順です。
             </div>
-            <div class="uk-hidden@m">
+            <div class="uk-hidden@s">
+              <div class="uk-text-meta">*1: 順にBreaking the ground, Shooting fireballの配点です。</div>
+              <div class="uk-text-meta">*2: 順にAbout me, MeteorGlow Aftermathの配点です。</div>
               <table class="uk-table uk-table-divider">
                 <thead>
                   <tr>
@@ -306,17 +308,15 @@
                 <tbody>
                   <tr>
                     <td class="uk-width-small">beatmania IIDX (SP)</td>
-                    <td>300/150/75<br>クリア(ASSIST EASY以上)</td>
-                    <td></td>
+                    <td>300/100/50, 300/150/75 <span class="uk-text-meta">*1</span><br>クリア(ASSIST EASY以上)</td>
                   </tr>
                   <tr>
                     <td class="uk-width-small">beatmania IIDX (DP)</td>
                     <td>300/225/150<br>クリア(ASSIST EASY以上)</td>
-                    <td></td>
                   </tr>
                   <tr>
                     <td>SOUND VOLTEX</td>
-                    <td>300/50/15, 300/150/75/50<br>クリア</td>
+                    <td>300/50/15, 300/150/75/50 <span class="uk-text-meta">*2</span><br>クリア</td>
                   </tr>
                   <tr>
                     <td>pop'n music</td>
@@ -381,7 +381,7 @@
                 </tbody>
               </table>
             </div>
-            <div class="uk-visible@m">
+            <div class="uk-visible@s">
               <table class="uk-table uk-table-divider">
                 <thead>
                   <tr>
@@ -393,19 +393,17 @@
                 <tbody>
                   <tr>
                     <td class="uk-width-small">beatmania IIDX (SP)</td>
-                    <td>300/150/75</td>
+                    <td>300/100/50 (Breaking the ground)<br>300/150/75 (Shooting fireball)</td>
                     <td>クリア(ASSIST EASY以上)</td>
-                    <td></td>
                   </tr>
                   <tr>
                     <td class="uk-width-small">beatmania IIDX (DP)</td>
                     <td>300/225/150</td>
                     <td>クリア(ASSIST EASY以上)</td>
-                    <td></td>
                   </tr>
                   <tr>
                     <td>SOUND VOLTEX</td>
-                    <td>300/50/15, 300/150/75/50</td>
+                    <td>300/50/15 (About me)<br>300/150/75/50 (MeteorGlow Aftermath)</td>
                     <td>クリア</td>
                   </tr>
                   <tr>

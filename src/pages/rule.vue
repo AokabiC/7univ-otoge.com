@@ -5,7 +5,7 @@
       class="uk-flex uk-flex-left"
       style="min-height: 100%"
     >
-      <div class="uk-container uk-padding uk-container-small uk-text-left">
+      <div class="uk-container uk-width-1-2@xl uk-width-2-3@m uk-padding uk-container-small uk-text-left">
         <h1>ルール</h1>
         <h3 class="uk-heading-line uk-text-center">
           <span>共通</span>
@@ -32,8 +32,7 @@
             <div class="uk-accordion-content">
               <ul class="uk-list uk-list-bullet">
                 <li>EXスコアでの集計を行います。シングルプレー、ダブルプレー個別に集計します。</li>
-                <li>
-                  EXPAND JUDGEやH-RANなどの<span class="uk-text-danger">スコアの記録されないオプションの使用を禁止</span>します。それ以外のオプションの使用は自由です。​
+                <li>EXPAND JUDGEやH-RANなどの<span class="uk-text-danger">スコアの記録されないオプションの使用を禁止</span>します。それ以外のオプションの使用は自由です。​
                 </li>
                 <li>提出制限: クリア(ASSIST EASY以上)</li>
               </ul>
@@ -64,8 +63,7 @@
             <div class="uk-accordion-content">
               <ul class="uk-list uk-list-bullet">
                 <li>通常スコアでの集計を行います。シングルプレー、ダブルプレー個別に集計します。</li>
-                <li>
-                  <span class="uk-text-danger">「​​タイミング別カット」、「フリーズアロー」、「同時踏み」オプションの使用を禁止</span>します。それ以外のオプションの使用は自由です。
+                <li><span class="uk-text-danger">「​​タイミング別カット」、「フリーズアロー」、「同時踏み」オプションの使用を禁止</span>します。それ以外のオプションの使用は自由です。
                 </li>
                 <li>提出制限: クリア</li>
               </ul>
@@ -76,8 +74,7 @@
             <div class="uk-accordion-content">
               <ul class="uk-list uk-list-bullet">
                 <li>単曲スキル値での集計を行います。</li>
-                <li>
-                  <span class="uk-text-danger">​達成率が下がるオプション​の使用を禁止</span>します。それ以外のオプションの使用は自由です。​
+                <li><span class="uk-text-danger">​達成率が下がるオプション​の使用を禁止</span>します。それ以外のオプションの使用は自由です。​
                 </li>
                 <li>提出制限: クリア</li>
               </ul>
@@ -88,8 +85,7 @@
             <div class="uk-accordion-content">
               <ul class="uk-list uk-list-bullet">
                 <li>単曲スキル値での集計を行います。</li>
-                <li>​
-                  <span class="uk-text-danger">達成率が下がるオプション​の使用を禁止</span>します。それ以外の​オプションの使用は自由です。​
+                <li>​<span class="uk-text-danger">達成率が下がるオプション​の使用を禁止</span>します。それ以外の​オプションの使用は自由です。​
                 </li>
                 <li>提出制限: クリア</li>
               </ul>
