@@ -27,28 +27,28 @@
               <td>Dance Dance Revolution (SP / DP)</td>
             </tr>
             <tr>
-              <td>GuitarFreaks / DrumMania</td>
+              <td>GuitarFreaks</td>
+              <td>DrumMania</td>
+            </tr>
+            <tr>
               <td>jubeat</td>
-            </tr>
-            <tr>
               <td>REFLEC BEAT</td>
+            </tr>
+            <tr>
               <td>ノスタルジア</td>
-            </tr>
-            <tr>
               <td>CHUNITHM</td>
+            </tr>
+            <tr>
               <td>maimai</td>
-            </tr>
-            <tr>
               <td>初音ミク Project DIVA</td>
+            </tr>
+            <tr>
               <td>GROOVE COASTER</td>
-            </tr>
-            <tr>
               <td>太鼓の達人</td>
-              <td>DANCERUSH</td>
             </tr>
             <tr>
+              <td>DANCERUSH</td>
               <td>オンゲキ</td>
-              <td/>
             </tr>
           </tbody>
         </table>
