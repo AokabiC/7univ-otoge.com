@@ -75,7 +75,7 @@
                   </tr>
                   <tr>
                     <td>Dance Dance Revolution (SP)</td>
-                    <td>Adularia (3/6/10/14)</td>
+                    <td>Adularia (3/6/10/14) <span class="uk-label uk-label-default">要解禁</span></td>
                   </tr>
                   <tr>
                     <td/>
@@ -219,7 +219,7 @@
                   </tr>
                   <tr>
                     <td>Dance Dance Revolution (SP)</td>
-                    <td>Adularia (3/6/10/14)</td>
+                    <td>Adularia (3/6/10/14) <span class="uk-label uk-label-default">要解禁</span></td>
                     <td>イーディーエム・ジャンパーズ (3/5/8/12)</td>
                   </tr>
                   <tr>
@@ -676,6 +676,7 @@
                     <ul class="uk-list uk-list-bullet">
                       <li>ボタンの奥側にあるタッチスライダーの両端をタッチ、あるいは画面を直接タッチして曲の選択を行う。</li>
                       <li>曲リスト脇の「公開順」をタッチ、あるいはXボタンを押し曲の並び順を変更できる。</li>
+                      <li>リザルトの表示が短いので、予めスマホを用意しておきましょう。</li>
                     </ul>
                   </div>
                 </li>
