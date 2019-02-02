@@ -12,7 +12,7 @@
         <ul class="uk-list uk-list-bullet">
           <li>各旧帝大音ゲーサークルに所属している学生</li>
           <li>旧帝大在籍の学生</li>
-          <li>旧帝大を卒業したOBのうちLINEやdiscord等何かしらの手段で連絡の取れる方</li>
+          <li>サークルOBのうちLINEやdiscord等何かしらの手段で連絡の取れる方<span class="uk-text-meta">(2/1 00:30 表記を変更)</span></li>
         </ul>
         <h3>対象機種</h3>
         <table class="uk-table uk-table-divider">

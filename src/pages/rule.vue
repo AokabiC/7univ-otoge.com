@@ -22,6 +22,9 @@
           <li>各曲・各難易度ごとに1位のPtが定められており、最終順位に応じて1Pt刻みで2位以下にもPtが与えられます
             <br>(1位が300Ptの場合、2位299Pt、3位298Pt、・・・のようになります)。
           </li>
+          <li>サークルの総合Ptは、以下の式により決定されます。
+              <br>((3機種触った人数)/(サークルの人数) + 1) × (サークルの平均点) <span class="uk-text-meta">(2/1 00:30追記)</span></li>
+
         </ul>
         <h3 class="uk-heading-line uk-text-center">
           <span>機種別ルール・提出制限</span>
@@ -76,6 +79,7 @@
                 <li>単曲スキル値での集計を行います。</li>
                 <li><span class="uk-text-danger">​達成率が下がるオプション​の使用を禁止</span>します。それ以外のオプションの使用は自由です。​
                 </li>
+                <li>ギター譜面とベース譜面の同じ難易度は、<span class="uk-text-warning">同一ランキング中でスキル値によって順位を決定</span>します。<span class="uk-text-meta">(2/1 00:30追記)</span></li>
                 <li>提出制限: クリア</li>
               </ul>
             </div>
@@ -137,7 +141,7 @@
               <ul class="uk-list uk-list-bullet">
                 <li>達成率での集計を行います。</li>
                 <li>オプションの使用は自由です。​</li>
-                <li>提出制限: RANK AAA以上(達成率 90.00％以上)</li>
+                <li>提出制限: RANK AAA以上(達成率 94.00％以上)<span class="uk-text-meta">(2/2 09:00修正)</span></li>
               </ul>
             </div>
           </li>
@@ -150,6 +154,7 @@
                   <span class="uk-text-danger">オプションの使用を禁止</span>します。​
                 </li>
                 <li>完奏モードでのプレーは対象としません。</li>
+                <li>課題曲「カラフルxメロディ」の難易度EX EXTREMEは<span class="uk-text-danger">対象外</span>とします。<span class="uk-text-meta">(2/2 09:00追記・修正)</span></li>
                 <li>提出制限: クリア</li>
               </ul>
             </div>
@@ -193,7 +198,7 @@
             <a class="uk-accordion-title" href="#">オンゲキ</a>
             <div class="uk-accordion-content">
               <ul class="uk-list uk-list-bullet">
-                <li>通常スコアでの集計を行います。</li>
+                <li>テクニカルスコアでの集計を行います。<span class="uk-text-meta">(2/1 00:45修正)</span></li>
                 <li>オプションの使用は自由です。​</li>
                 <li>提出制限: RANK S以上(970,000点以上)</li>
               </ul>
