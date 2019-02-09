@@ -180,7 +180,7 @@
                   </tr>
                   <tr>
                     <td>オンゲキ</td>
-                    <td>What color (2/6/9/12)</td>
+                    <td>What color (2/6/9/12+)</td>
                   </tr>
                   <tr>
                     <td/>
@@ -285,7 +285,7 @@
                   </tr>
                   <tr>
                     <td>オンゲキ</td>
-                    <td>What color (2/6/9/12)</td>
+                    <td>What color (2/6/9/12+)</td>
                     <td>Ai Nov (4/7+/11/13+)</td>
                   </tr>
                 </tbody>
@@ -345,7 +345,7 @@
                   </tr>
                   <tr>
                     <td>REFLEC BEAT</td>
-                    <td>300/200/100/50<br>ACHIEVEMENT RATE 90.0％以上</td>
+                    <td>300/200/100/50<br>ACHIEVEMENT RATE 80.0％以上</td>
                   </tr>
                   <tr>
                     <td>ノスタルジア</td>
@@ -717,7 +717,7 @@
                   <a class="uk-accordion-title" href="#">オンゲキ</a>
                   <div class="uk-accordion-content">
                     <ul class="uk-list uk-list-bullet">
-                      <li>他ゲームと異なりGP制が採用されています。店舗によって設定は異なりますが最大で一度に3クレジットを用いてのGP購入が可能で、一度に多く買うほどGPの割合が増加します。1曲のプレイには30GPが必要です。</li>
+                      <li>他ゲームと異なりGP制が採用されています。店舗によって設定は異なりますが最大で一度に3クレジットを用いてのGP購入が可能で、一度に多く買うほどGPの割合が増加します。1曲のプレイには40GPが必要です。</li>
                       <li>課題曲はどちらも「オンゲキ」ジャンルです。 選曲画面で筐体側部のL/Rボタンを用いてフォルダ移動して選択してください。</li>
                       <li>各曲ごとに最高難易度MASTERの解禁にはプレーごとに追加で10GPの支払いかEXPERT以上でのテクニカルスコアSランク(97万点以上)の獲得による常駐が必要です。</li>
                     </ul>

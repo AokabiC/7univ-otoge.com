@@ -17,7 +17,8 @@
           <div class="uk-grid uk-child-width-auto uk-grid-medium uk-flex-inline uk-flex-center">
             <div class="uk-first-column">
               <a
-                uk-tooltip="2/9 公開予定"
+                href="https://otoge-connected.com/competitions/153"
+                target="_brank"
                 class="uk-button uk-button-default tm-button-primary"
               >IR page</a>
             </div>
