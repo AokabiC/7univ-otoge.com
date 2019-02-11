@@ -52,7 +52,7 @@
                   </tr>
                   <tr>
                     <td class="uk-width-small">beatmania IIDX (DP)</td>
-                    <td>Uh-Oh (6/9/10)</td>
+                    <td>Uh-Oh (5/8/10)</td>
                   </tr>
                   <tr>
                     <td/>
@@ -205,7 +205,7 @@
                   </tr>
                   <tr>
                     <td class="uk-width-small">beatmania IIDX (DP)</td>
-                    <td>Uh-Oh (6/9/10)</td>
+                    <td>Uh-Oh (5/8/10)</td>
                     <td>GOLDEN CROSS (6/8/12)</td>
                   </tr>
                   <tr>
