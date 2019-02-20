@@ -31,12 +31,12 @@
                 Task
               </a>
             </router-link>
-            <router-link to="/ranking" tag="li">
-              <a href>
+            <li>
+              <a href="https://otoge-connected.com/competitions/altresult?id=153" target="_brank">
                 <span uk-icon="users" class="uk-margin-small-right"></span>
                 Ranking
               </a>
-            </router-link>
+            </li>
             <li>
               <a href="https://otoge-connected.com/competitions/153" target="_brank">
                 <span uk-icon="upload" class="uk-margin-small-right"></span>
