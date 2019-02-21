@@ -23,7 +23,7 @@
             <br>(1位が300Ptの場合、2位299Pt、3位298Pt、・・・のようになります)。
           </li>
           <li>サークルの総合Ptは、以下の式により決定されます(<span class="uk-text-warning">提出のないプレイヤーは0Pt</span>とみなされます)。
-              <br>((3部門提出した人数)/(サークルのエントリー人数) + 1) × (サークルの平均点) <span class="uk-text-meta">(2/21 22:00追記)</span></li>
+              <br>((3部門以上提出した人数)/(サークルのエントリー人数) + 1) × (サークルの平均点) <span class="uk-text-meta">(2/21 22:00追記)</span></li>
 
         </ul>
         <h3 class="uk-heading-line uk-text-center">

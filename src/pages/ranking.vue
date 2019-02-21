@@ -29,6 +29,31 @@
               </tr>
             </tbody>
           </table>
+          <ul uk-accordion>
+            <li>
+              <a class="uk-accordion-title uk-text-meta" href="#">詳細情報</a>
+              <div class="uk-accordion-content">
+                <ul class="uk-list uk-list-bullet">
+                  <li> 3部門以上提出しているプレイヤーの割合
+                    <table class="uk-table uk-table-small">
+                      <thead>
+                        <tr>
+                          <th>サークル</th>
+                          <th>割合</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr v-for="(circle, index) in circle_info" :key="circle.score">
+                          <td>{{ circle.name }}</td>
+                          <td>{{ circle.sub_over3 }}/{{ circle.entry }} ({{ (circle.sub_over3*100/circle.entry).toFixed(1) }}%)</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
         </div>
         <h3>個人総合スコア TOP50</h3>
         <div class="uk-padding" uk-spinner v-if="!isloaded"/>
@@ -77,7 +102,7 @@
             href="https://otoge-connected.com/competitions/altresult?id=153"
             target="_brank"
             class="uk-button uk-button-default"
-          >Show more...</a>
+          >See more...</a>
         </div>
       </div>
     </div>
@@ -95,13 +120,13 @@ export default {
   computed: {
     circle_info: function() {
       var circle_info = [
-        {name: "XyHUtte", score: 0, entry: 1, sub_over3: 0},
-        {name: "とんえぼ", score: 0, entry: 1, sub_over3: 0},
-        {name: "B4UT", score: 0, entry: 1, sub_over3: 0},
-        {name: "Wuv NU", score: 0, entry: 1, sub_over3: 0},
-        {name: "京音", score: 0, entry: 1, sub_over3: 0},
-        {name: "EÜST’", score: 0, entry: 1, sub_over3: 0},
-        {name: "QUaver", score: 0, entry: 1, sub_over3: 0}
+        {name: "XyHUtte", score: 0, entry: 38, sub_over3: 0},
+        {name: "とんえぼ", score: 0, entry: 44, sub_over3: 0},
+        {name: "B4UT", score: 0, entry: 82, sub_over3: 0},
+        {name: "Wuv NU", score: 0, entry: 14, sub_over3: 0},
+        {name: "京音", score: 0, entry: 30, sub_over3: 0},
+        {name: "EÜST’", score: 0, entry: 29, sub_over3: 0},
+        {name: "QUaver", score: 0, entry: 49, sub_over3: 0}
       ];
       for(var person of this.info){
         for(var circle of circle_info){
