@@ -45,7 +45,7 @@
                       <tbody>
                         <tr v-for="(circle, index) in circle_info" :key="circle.score">
                           <td>{{ circle.name }}</td>
-                          <td>{{ circle.sub_over3 }}/{{ circle.entry }} ({{ (circle.sub_over3*100/circle.entry).toFixed(1) }}%)</td>
+                          <td>{{ (circle.sub_over3*100/circle.entry).toFixed(1) }}%</td>
                         </tr>
                       </tbody>
                     </table>
@@ -75,7 +75,7 @@
                 <td>{{ person.circle }}</td>
                 <td>{{ person.score }}</td>
                 <td>
-                  <a :href="'https://twitter.com/'+ person.twitter">{{ person.twitter }}</a>
+                  <a :href="'https://twitter.com/'+ person.twitter" target="_brank">{{ person.twitter }}</a>
                 </td>
               </tr>
             </tbody>
@@ -106,6 +106,7 @@
         </div>
       </div>
     </div>
+    <footerbar/>
   </div>
 </template>
 
