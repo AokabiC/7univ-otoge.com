@@ -9,40 +9,76 @@
         class="uk-container uk-width-1-2@xl uk-width-2-3@m uk-padding uk-container-small uk-text-left"
       >
         <h3>サークル総合スコア</h3>
-        <table class="uk-table uk-table-divider">
-          <thead>
-          <tr>
-            <th>順位</th>
-            <th>名前</th>
-            <th>スコア</th>
-          </tr>
-          </thead>
-          <tbody>
-          </tbody>
-        </table>
-        <h3>個人総合スコア TOP50</h3>
-        <table class="uk-table uk-table-divider">
-          <thead>
-          <tr>
-            <th>順位</th>
-            <th>名前</th>
-            <th>所属サークル</th>
-            <th>スコア</th>
-            <th>Twitter</th>
-          </tr>
-          </thead>
-          <tbody>
-            <tr v-for="(item, index) in info" :key="item.score" v-if="index+1 <= 50">
-              <td>{{ index + 1 }}</td>
-              <td>{{ item.name }}</td>
-              <td>{{ item.circle }}</td>
-              <td>{{ item.score }}</td>
-              <td>
-                <a :href="'https://twitter.com/'+item.twitter">{{ item.twitter }}</a>
-              </td>
+        <div class="uk-text-meta">暫定であり、期間終了後に変動する可能性があります。計算式は Rule を参照。
+        </div>
+        <div class="uk-padding" uk-spinner v-if="!isloaded"/>
+        <div v-if="isloaded">
+          <table class="uk-table uk-table-divider">
+            <thead>
+            <tr>
+              <th>順位</th>
+              <th>サークル</th>
+              <th>スコア</th>
             </tr>
-          </tbody>
-        </table>
+            </thead>
+            <tbody>
+              <tr v-for="(circle, index) in circle_info" :key="circle.score">
+                <td>{{ index+1 }}</td>
+                <td>{{ circle.name}}</td>
+                <td>{{ circle.score.toFixed(3) }}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <h3>個人総合スコア TOP50</h3>
+        <div class="uk-padding" uk-spinner v-if="!isloaded"/>
+        <div v-if="isloaded">
+          <table class="uk-table uk-table-divider uk-visible@s">
+            <thead>
+            <tr>
+              <th>順位</th>
+              <th>名前</th>
+              <th>所属サークル</th>
+              <th>スコア</th>
+              <th>Twitter</th>
+            </tr>
+            </thead>
+            <tbody>
+              <tr v-for="(person, index) in info" :key="person.score" v-if="index+1 <= 50">
+                <td>{{ index + 1 }}</td>
+                <td>{{ person.name }}</td>
+                <td>{{ person.circle }}</td>
+                <td>{{ person.score }}</td>
+                <td>
+                  <a :href="'https://twitter.com/'+ person.twitter">{{ person.twitter }}</a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table class="uk-table uk-table-divider uk-hidden@s">
+            <thead>
+            <tr>
+              <th>順位</th>
+              <th>名前</th>
+            </tr>
+            </thead>
+            <tbody>
+              <template v-for="(person, index) in info" v-if="index+1 <= 50">
+                <tr>
+                <td>{{ index + 1 }}</td>
+                <td>
+                  <a :href="'https://twitter.com/'+person.twitter">{{ person.name }}</a>
+                  <br><span class="uk-text-meta">({{ person.circle }} / {{ person.score }})</span></td>
+                </tr>
+              </template>
+            </tbody>
+          </table>
+          <a
+            href="https://otoge-connected.com/competitions/altresult?id=153"
+            target="_brank"
+            class="uk-button uk-button-default"
+          >Show more...</a>
+        </div>
       </div>
     </div>
   </div>
@@ -52,18 +88,50 @@
 export default {
   data() {
     return {
-      info: null
+      info: null,
+      isloaded: false
     };
+  },
+  computed: {
+    circle_info: function() {
+      var circle_info = [
+        {name: "XyHUtte", score: 0, entry: 1, sub_over3: 0},
+        {name: "とんえぼ", score: 0, entry: 1, sub_over3: 0},
+        {name: "B4UT", score: 0, entry: 1, sub_over3: 0},
+        {name: "Wuv NU", score: 0, entry: 1, sub_over3: 0},
+        {name: "京音", score: 0, entry: 1, sub_over3: 0},
+        {name: "EÜST’", score: 0, entry: 1, sub_over3: 0},
+        {name: "QUaver", score: 0, entry: 1, sub_over3: 0}
+      ];
+      for(var person of this.info){
+        for(var circle of circle_info){
+          if(circle.name== person.circle){
+            circle.score += person.score
+            if(person.nsubmit_from_altid >= 3) circle.sub_over3++
+          }
+        }
+      }
+      for(var circle of circle_info){
+        circle.score = (circle.sub_over3/circle.entry + 1) * circle.score / circle.entry
+      }
+      circle_info.sort(function(a,b) {
+        if( a.score < b.score ) return 1;
+        if( a.score > b.score ) return -1;
+        return 0;
+      });
+      return circle_info
+    }
   },
   async created() {
     try {
       let res = await axios.get(
         "https://otoge-connected.com/api/v1/competitions/153/show_altranking"
       );
-      this.info = res.data;
+      this.info = res.data
+      this.isloaded = true
     } catch (err) {
-      console.error(err);
+      console.error(err)
     }
   }
-};
+}
 </script>
