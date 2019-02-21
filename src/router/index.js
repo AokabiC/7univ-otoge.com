@@ -4,6 +4,7 @@ import index from '@/pages/index'
 import about from '@/pages/about'
 import rule from '@/pages/rule'
 import task from '@/pages/task'
+import ranking from '@/pages/ranking'
 
 Vue.use(Router)
 
@@ -28,6 +29,11 @@ export default new Router({
       path: '/task',
       name: 'task',
       component: task
+    },
+    {
+        path: '/ranking',
+        name: 'ranking',
+        component: ranking
     }
   ]
 })

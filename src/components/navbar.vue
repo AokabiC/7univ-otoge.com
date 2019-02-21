@@ -31,12 +31,12 @@
                 Task
               </a>
             </router-link>
-            <li>
-              <a href="https://otoge-connected.com/competitions/altresult?id=153" target="_brank">
+            <router-link to="/ranking" tag="li">
+              <a href>
                 <span uk-icon="users" class="uk-margin-small-right"></span>
                 Ranking
               </a>
-            </li>
+            </router-link>
             <li>
               <a href="https://otoge-connected.com/competitions/153" target="_brank">
                 <span uk-icon="upload" class="uk-margin-small-right"></span>
@@ -77,12 +77,12 @@
                     Task
                   </a>
                 </router-link>
-                <li>
-                  <a href="https://otoge-connected.com/competitions/altresult?id=153" target="_brank">
+                <router-link to="/ranking" tag="li">
+                  <a href class="uk-modal-close">
                     <span uk-icon="users" class="uk-margin-small-right"></span>
                     Ranking
                   </a>
-                </li>
+                </router-link>
                 <li>
                   <a href="https://otoge-connected.com/competitions/153" target="_brank">
                     <span uk-icon="upload" class="uk-margin-small-right"></span>
@@ -91,7 +91,6 @@
                 </li>
               </ul>
               <div class="uk-alert-warning uk-padding-small uk-margin-small"><span uk-icon="warning"/> スコアの提出にはTwitterに投稿したリザルト画像のリンクが必須です。</div>
-              <div class="uk-text-meta uk-padding-small uk-margin-small"><span uk-icon="info"/> 近日中に七帝戦サイト内でランキングの参照ができるようになります。</div>
             </div>
           </div>
         </div>
