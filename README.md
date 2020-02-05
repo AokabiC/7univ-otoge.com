@@ -1,6 +1,7 @@
 # 7univ-otoge
 
-> The website for 7univ-otoge
+The website for [7univ-otoge](http://7univ-otoge.com)
+
 
 ## Build Setup
 
